@@ -2,7 +2,7 @@ document.getElementById("submit").addEventListener("click", async () => {
   const text = document.getElementById("text-input").value;
   const countdownEl = document.getElementById("countdown");
 
-  for (let i = 5; i > 0; i--) {
+  for (let i = 3; i > 0; i--) {
     countdownEl.textContent = `Typing in ${i}...`;
     await new Promise(r => setTimeout(r, 1000));
   }
