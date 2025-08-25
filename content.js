@@ -38,7 +38,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       }
 
       i++;
-      setTimeout(typeChar, 10);
+      setTimeout(typeChar, 0);
     };
 
     typeChar();
